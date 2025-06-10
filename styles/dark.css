@@ -5,10 +5,14 @@
 */
 
 :root.theme-dark {
-  --bg-color: #000028;
-  --title-color: #db00ff;
+  --bg-color: 0, 0, 40;
+  --title-color: 219, 0, 255;
   --title-decor-color: var(--bg-color);
   --text-color: 241, 178, 206;
   --accent-color: 255, 0, 112;
   --cover-image: url("../images/cover-image-dark.png");
+  --section-title-color: var(--accent-color);
+  --decoration-color: var(--accent-color);
+  --button-color: var(--accent-color);
+  --decoration-visibility: visible;
 }
